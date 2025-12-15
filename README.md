@@ -33,3 +33,14 @@ Certifique-se de ter:
 ```bash
 git clone [https://github.com/LarissaGiffoni/ia-agente-conversacional.git](https://github.com/LarissaGiffoni/ia-agente-conversacional.git)
 cd ia-agente-conversacional
+
+### 3. Instalar Dependências
+
+Crie e ative seu ambiente virtual (`venv`) e instale as dependências listadas no `requirements.txt`:
+
+```bash
+# Ativa o ambiente virtual (Windows)
+.\venv\Scripts\activate
+
+# Instala as dependências
+pip install -r requirements.txt
